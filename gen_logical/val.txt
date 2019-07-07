@@ -1,0 +1,258 @@
+find a girl in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+meet <name> at the <location> and follow them
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+find a woman in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+find a girl in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Tell me the gender of the person in the <room>
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <room> " ) ) ) )
+Tell me the gender of the person at the <room>
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <room> " ) ) ) )
+find a woman in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+locate a girl in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+give me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+follow <name> from the <location> to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+answer a <question> to <name> at the <location>
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+give me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+locate a woman in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+locate a girl in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+bring me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+give me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+bring me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+locate a woman in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+look for a girl in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+bring me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+get the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+look for a woman in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+look for a girl in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Tell me how many people in the <room> are standing
+( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) ) )
+give the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+take the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+look for a woman in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+give me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+bring the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+grasp the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+go to the <room> , find a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+bring me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+go to the <location> , meet <name> , and follow them
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go to the <room> , find a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , find a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+pick up the <object> from the <room> to the <location>
+( put ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <room> " ) ) " <location> " )
+find a female person in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , find a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , locate a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Please give me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Please give me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+find a female person in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , locate a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , locate a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Please bring me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Please give me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+Please bring me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+locate a female person in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , locate a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , look for a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Please bring me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+locate a female person in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , look for a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , look for a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you give me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Could you give me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+look for a female person in the <room> and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , look for a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , find a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you bring me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Please give me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Could you give me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+navigate to the <location> , meet <name> , and follow them
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you bring me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+look for a female person in the <room> and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , find a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , find a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Please bring me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Could you bring me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+meet <name> at the <location> and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+navigate to the <room> , find a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , locate a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Robot please give me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Robot please give me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+go to the <room> , find a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , locate a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , locate a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Robot please bring me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Could you give me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Robot please give me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+Robot please bring me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+go to the <room> , find a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , locate a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , look for a girl , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you bring me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Robot please bring me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+tell me which are the three smallest objects on the <location>
+( say ( lambda $1 e ( smallest $1 3 ) ( at $1 " <location> " ) ) )
+go to the <room> , locate a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , look for a woman , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , look for a girl , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+go to the <room> , locate a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , look for a woman , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+tell me which are the three largest <category> on the <location>
+( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Could you please give me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Robot please give me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Could you please give me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+go to the <room> , look for a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you please bring me the heaviest object from the <location>
+( bring ( lambda $1 e ( heaviest $1 ) ) " <location> " )
+Robot please bring me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Could you please give me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+Could you please bring me the smallest object from the <location>
+( bring ( lambda $1 e ( smallest $1 ) ) " <location> " )
+go to the <room> , look for a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you please bring me the left most object from the <location>
+( bring ( lambda $1 e ( leftmost $1 " <location> " ) ) )
+go to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+navigate to the <room> , find a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , find a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you please give me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+navigate to the <room> , locate a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Could you please bring me the smallest <category> from the <location>
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( smallest $1 ) ) " <location> " )
+Please tell me which are the three smallest objects on the <location>
+( say ( lambda $1 e ( smallest $1 3 ) ( at $1 " <location> " ) ) )
+navigate to the <room> , locate a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <room> , look for a female person , and say <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+Please tell me which are the three largest <category> on the <location>
+( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+navigate to the <room> , look for a female person , and tell <whattosay>
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) )
+navigate to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you tell me which are the three smallest objects on the <location>
+( say ( lambda $1 e ( smallest $1 3 ) ( at $1 " <location> " ) ) )
+Please go to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you tell me which are the three largest <category> on the <location>
+( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Robot please tell me which are the three smallest objects on the <location>
+( say ( lambda $1 e ( smallest $1 3 ) ( at $1 " <location> " ) ) )
+Could you go to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Robot please tell me which are the three largest <category> on the <location>
+( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Please navigate to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Robot please go to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you please tell me which are the three smallest objects on the <location>
+( say ( lambda $1 e ( smallest $1 3 ) ( at $1 " <location> " ) ) )
+Could you please tell me which are the three largest <category> on the <location>
+( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Could you navigate to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you please go to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Robot please navigate to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Could you please navigate to the <location> , meet <name> , and follow them to the <room>
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )

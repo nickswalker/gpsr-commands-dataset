@@ -1,0 +1,670 @@
+Whos sitting in the kitchen
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Answer Jordan in the living room
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+how many girls are in the bathroom
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+How many girls are in the bathroom?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+How many ladies are in the corridor
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+How many women are in the corridor?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+say a joke to a man in the corridor
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Hand me the biggest item in the sink
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+what is the biggest thing on the bar
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Go to the corridor and count the girls
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+How many girls are in the living room?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+On the bar, which item is the largest?
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+How many females are in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Tell a joke to the man in the corridor.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+What is the largest object in the sink?
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Locate Jordan in the bedroom and answer
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Get me the largest item from the cuboard
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+how many people in the hallway are girls
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+What is the largest object from the sink?
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+hand me the largest item from the counter
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Bring me the rightmost object on the stove
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+What are the biggest objects in the drawer
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+How many people are sitting in the hallway
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+get me the largest object from the counter
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+How many people are in the girls bathroom?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Bring me the thinnest object from the sink
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+get the thinnest thing from the dishwasher
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+go and tell the man on the corridor a joke
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+What are the biggest objects in the drawer?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+What are the largest items in the microwave
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Which item in the microwave is the biggest?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Count the people sitting in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+How many sitting people are in the kitchen?
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Go get me the biggest item in the microwave
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Tell the boy in the bedroom about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+How many people are sitting in the bathroom?
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+How many people are sitting in the corridor?
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+bring me the thinnest thing from the counter
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+count the number of girls in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+how many female are there in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+how many people in this bathroom are female?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Tell the boy in the corridor what time it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Tracy is at the corridor and has a question.
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Bring me the largest object in that cupboard.
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+get me the thinnest thing from the dishwasher
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+How many people in the living room are girls?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Answer Jordans question she is in the bedroom
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Is the person at the armchair male or female?
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <location> " ) ) ) )
+What objects on the microwave are the largest?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+What's the largest object on the baby's chair?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Bring me what's above the cereal in the fridge
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Hand me the thinnest items on the center table
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+How many people in the living room are female?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+whats the number of females in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Please get me the thinnest item in the fridge.
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+FIND THE BOY IN DINING ROOM AND TELL THE TIME.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Which is the largest object on top of the bar?
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Bring me right most object from the nightstand.
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+I'd like the rightmost object on the baby chair
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+On the baby chair, which is the biggest object?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Please bring the largest item from the cupboard
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Find Robin near the tv and give her the sponge.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go get the thing above the knife at the dresser
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Show me the three thinnest objects on the desk.
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Tell the man in the living room what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+can you tell a joke to the man at the corridor?
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Detail the largest object on the cutlery drawer
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+please sink, tell me what is the biggest object
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+What are the largest things on the dining table?
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Tell me how many people are women in the bedroom
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+What's the largest object on the washing machine
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Find the person waving from the corridor and joke
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Tell a joke to the person waving in the corridor.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Tell a joke to the person sitting in the bedroom.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Pass me the object above the peach on the counter
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Meet Alex at the sink and follow Alex to the bed.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+What are the three smallest objects on the toilet
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Which three things on that desk are the thinnest?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+which three things on the desk are the skinniest?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+give me the smallest thing in the washing machine
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+say the time then locate a boy in the dining room
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Bring me the thing on top of the tea from the tub
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Bring me the object on the right side of the stove
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+What is the biggest thing in the microwave please?
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+TELL A JOKE TO A PERSON SITTING IN THE DINING ROOM
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+What's the largest objects on the washing machine?
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Which are the largest objects on the dining table.
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Tell me how many people are resting in the kitchen
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Hand me the thinnest objects from the center table
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+of the people in the bathroom, how many are girls?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+of the people in the corridor, how many are women?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Bring me the thinnest item from the clothes washer
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+go to bedroom , see a boy , and say about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Let me know the largest item on the cutlery drawer
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Find Taylor in the hallway and answer his question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Find the bathroom and have Tracy answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Please bring me the rightmost object on the counter
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+hey robot get me the object to the right of the bar
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+what is the biggest thing on the dining room table?
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Take the peach from the stove and give it to Robin.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Bring me the object above the peach on the counter.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Go tell the person standing in the bathroom a joke.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Please bring me the thinnest objects in the freezer
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+What are the three most thin objects on the toilet?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Of the people in the corridor, how many are female?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+State the time after you find a boy in the corridor
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Whats the biggest utensil in in the cutlery drawer?
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Find Tracy in the bathroom and answer her question.
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Go find Taylor in the bedroom and answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+What is the gender of the person at the wheelchair?
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <location> " ) ) ) )
+Bring me the object on the right side of the counter
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+please give me the privilege most items from the bar
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+Robin take the peach from the store at the cupboard.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go to the sink and follow tracy to the refridgerator
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+On the cabinet, what are the three thinnest objects?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Which three objects in the cabinet are the thinnest?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+find a boy in the dining room and tell him the time.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Go to the bathroom, and have Tracy answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Count the number of sitting people in the living room
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Find the person in the bathroom and tell them the day
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Meet Jamie at the towel rack and then go to the sink.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Can you fetch the skinniest item from the sink please
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+Say something about yourself to a man in the bathroom
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+I'd like the thing on top of the tea from the bathtub
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Tell me if a man or woman is sitting in the armchair.
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <location> " ) ) ) )
+How many people present in the living room are female?
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+go tell a boy in the bathroom something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Bring me whatever is on top of the fork in the dresser
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Hand me the object on top of the tea from the airchair
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Go to the sink, find Tracy and follow her to the fridge
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Please bring me the thinnest object from the dishwasher
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+Hand me the object that is on the left side of the sofa
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+bring me the object on top of the cookies in the shower
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Find Jordan in the living room and answer his question.
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+go look for Jordan in the bedroom and answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+go to the corridor to find tracy, and answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+locate waving individual and give a fact about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+ask the person sitting in the dining room what day it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Inform me which items on the side table are the biggest?
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Take the pear from the coffee table to Nancy at the bed.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+find the fridge and bring me the object above the cereal
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Go meet Tracy at the sink and follow them to the fridge.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+I'd like the thinnest things that were in the dishwasher
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+Please give me the thinnest objects from the dishwasher.
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+Tell me how many people in the living room are not boys.
+( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 " <room> " ) ) ) )
+Go to the sink and tell me the thinnest object in there.
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+Find a man in the livingroom and tell him about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Get me the object on top of the tea spoon at the cabinet
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+bring me the thing on top of the cookies from the shower
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Let me know the number of people sitting in the corridor.
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Bring me the item that is above the knife on the dresser.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Please get me the thinnest objects from the freezer Robot
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+get the thinnest object from the fridge and give it to me
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+Tell the man in the living room something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Pass me the object at the dining table left of the banana
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Look for Jordan in the living room, and answer a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Look at the person by the drawer and tell me their gender
+( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 " <location> " ) ) ) )
+Could you bring me the object right next to the baby chair
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+What's the largest objects on the cabinet in the bathroom?
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Find the largest item from the counter and let me have it.
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Please go to the sink and bring me the largest item in it.
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Bring the coke from the side table to Jamie at the counter
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Tell person standing in corridor something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Please meet Alex at the sink, then follow them to the bed.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+locate a boy in the kitchen and say a thing about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+bring me the thing to the left of the peach in the cabinet
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Go to the bedroom, find Hayden, and respond to an inquiry.
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+please get me the farthest right object from the baby chair
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+tell a joke then locate a person sitting in the dining room
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+tell the person standing in the kitchen the day of the week
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Find a boy in the bedroom and say something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+please tell me from the bathroom how many people are sitting
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+get the biggest object from the microwave and bring it to me
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+Grab the small dish next to the bathtub and give it to Robin
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Robin is by the cupboard bring him the peach from the stove.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+take the spaghetti from the drawer to morgan in the bath tub
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Give me the item from the chair that is on top of the chips.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+You can go to the sink, all the length and width of the bed.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Please bring the thinnest objects to me that are on the bar.
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+find the thinnest object from the freezer and bring it to me
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+Please tell me what are the 3 thinnest objects on the toilet
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Please bring me the object on top of the coffee table glass.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Locate Hayden in the living room, then respond to a question
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Tell the person in the dining room what day of the week it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+find a person seated in the dining room and tell them a joke.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Please tell me what the largest things on the side  table are
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Go to the chair and meet Morgan. Follow MOrgan to the drawer.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+tell the person pointing to the right in the corridor the time
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Bring me the object on the side table that's above the shampoo
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Can you give me the item above the shampoo from the side table
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Please give me the object that's above the chips on the chair.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+I want you to bring me the thinnest things from the bar thanks
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+I'd like the most thin objects that are in the washing machine
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+Please get me the object from the fridge that is the thinnest.
+( bring ( lambda $1 e ( thinnest $1 ) ) " <location> " )
+find a man in the living room and say something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Please bring me the object on top of the tea from the bathtub.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Report to me what the largest things that are on the drawer are
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+go to the bedroom and tell the person sitting what day today is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Tell me the name of the largest item inside the washing machine
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Go to the microwave, find the largest item, and bring it to me.
+( bring ( lambda $1 e ( biggest $1 ) ) " <location> " )
+meet Peyton at the fireplace and guide them to the center table
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Please locate a boy in the corridor and tell him what day it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+tell the person to raise the arm in the kitchen then tell a joke
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+go to the dining room and tell the person sitting what day it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+go to the drawer and take the spaghetti to morgan at the bathtub
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Tell the day of the week to the person standing in the bathroom.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Please meet Jamie at the towel rack and go to the sink with them
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Can you list the three thinnest objects on the dishwashing area?
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Give me the item on the left hand side of the soap from the sofa
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Give me the object on the baby chair which is left of the melon.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Report to me the number of people in the bathroom who are sitting
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Can you hand me that thing above the peach that's on the counter?
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Tell the person standing in the kitchen something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+find the boy in the bedroom and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Please hand me the thing to the left of the chocolate on the sofa
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+give me the object that is left of the choco flakes from the sofa
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Answer Tracy's question after you have found her in the corridor.
+( say ( answer " <question> " ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <room> " ) ) )
+Tell the person sitting in the bathroom what day of the week it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Please identify the largest objects placed on the washing machine.
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+robot go meet jamie at the towel rack and follower her to the sink
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Find the man in the middle of the dining room and tell him the day
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Can you please hand me the thing on the far right on my nightstand?
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+In the corridor, tell the time to the person raising their left arm
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Please go to the bedroom, find a seated person and tell them a joke
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Tell the person standing in the kitchen what day of the week it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+go in the living room and say what day it is to the person standing
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Go meet Peyton at the fireplace and bring them to the center table.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Find the man in the bathroom and tell him something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Go to the cabinet and bring the thing on top of the teaspoon to me.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Open the cabinet and give me the item on top of the teaspoon please
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Please bring me the object placed at the right most from the nightst
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+Please bring me the thing that is furthest to the right on the stove
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+go and say a joke to the person pointing to the left in the corridor
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Scan the items on the microwave and inform me which are the largest.
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Go to the bedroom, and tell the person sitting there what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Bring me the count of how many people are seated in the living room.
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+take the bag from the microwave and give to alex at the dining table
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Go to the bedroom,find the boy and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+lets go find the boy in the kitchen and say something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Find bathroom with a person waving and tell something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Look on the baby chair and let me know which objects are the largest.
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Tell something about yourself to a sitting person in the living room.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+go find a person standing in the bedroom and tell something about you
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+go to the fireplace, find Peyton and follow them to the center table.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Go to the bathroom, find a boy, and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+locate the bathroom, find a boy and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+move to the corridor, find an boy, and tell them what day it is today
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+TELL A JOKE TO THE PERSON IN THE KITCHEN WHO IS RAISING THEIR LEFT ARM
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Go to the microwave and tell me what are the biggest objects in there.
+( say ( lambda $1 e ( and ( biggest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Find the small dish in the bathrub and take it to Robin at the cabinet
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Go to the coffee table, get the pear, and bring it to Tracy in her bed
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+retrieve the water from the armchair take it to hayden in the bathroom
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go to bedroom and tell something about yourself to the standing person
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+can you tell me what are the three thinnest objects in the dishwasher.
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+please can I bring the object that from the baby's chair is on the lef
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Please bring me the object on the counter that is furthest to the right
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+go to the kitchen and tell a joke to the person raising their left arm.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+walk to the dining room and ask the person sitting there what day it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Give me the names of the biggest things you see on the bathroom cabinet
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+Please inform me of what the biggest items on the bathroom cabinet are.
+( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) ) )
+GET THE BAG FROM THE MICROWAVE AND GIVE IT TO ALEX AT THE DINING TABLE.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Take the napkin from the microwave and bring it to Michael at the chair
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Find a standing person at the living room and tell them what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Go to the living room and ask the person standing there what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Can you meet Jamie at the side table and lead them to the dining table.
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+Look on the cabinit and let me know which three items are the thinnest.
+( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 " <category> " ) ( at $1 " <location> " ) ) )
+Go to the bathroom, find a male person and say something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Place the right most difficult object from the baby chair into my hands.
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+Please go to the corridor and tell the time to the person pointing right
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Tell the person in the living room with their arm raised what time it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+take the bag from the microwave and give it to Alex at the dining table.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Go to the dining room,find the man and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Move into the kitchen, find a male and tell him something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+I'd like the thing that was on top of the cookies from the shower please
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Please give me the thing that is on top of the glass on the coffee table
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Ask the man in the corridor, who's raising his right arm, what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+ask what day its is to the person in the corridor with their right arm up
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Get the toothpaste on the bookshelf and take it to Peyton at the bathtub.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Robot please bring me the object on top of the shampoo from the fireplace
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Robot, can you please give me the object from the chair, above the chips?
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Go to the dining room, find a guy, and tell say something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+I need the object to the left of the peach in the cabinet, bring it to me
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Please bring me the thing that is to the left of the peach on the cabinet
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Robot please give me the item that is left of the chocolate from the sofa
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Look for a person sitting at the dining room and tell them what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Please inform me of the amount of people that are sitting in the bathroom.
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+Go to the side table, find the object above the shampoo and give it to me.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+Please hand me the object to the left of that banana from the dining table
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+can you bring be the thing from the coffee table thats on top of the glass
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Go to the bathroom, find someone standing there, and name a day of the week
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Please go to the side table, meet Jamie and follow them to the dining table
+( follow ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) " <location> " )
+When you get to the corridor, find the waving person and come up with a joke
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Please find the object placed at the right most of the bar and give it to me.
+( bring ( lambda $1 e ( rightmost $1 " <location> " ) ) )
+Tell something yourself to the person with their right hand up in the kitchen
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+go to dinning room , search for a person sitting , and say him what day it is
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Please go to the drawer, get the spaghetti and take it to Morgan at the  tub.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Count how many people in the kitchen are sitting and tell me how many that is.
+( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) ) )
+go to the coffee table where you will find a pear and bring it to Tracy in bed
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Navigate to the living room, look for a man, and tell something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Peyton is sitting by the fireplace, could you bring her a beer from the cabinet
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go to the armchair , take water ,and deliver it to Hayden who is in the bathtub
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Head to the bedroom, locate a person standing and say something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+head to the bedroom and tell the person standing there something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Go get me the item that's located to the left of the choco flakes near the sofa.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Go to the corridor, find the person pointing to the right and tell them the time.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Find the person who is in the hallway and announce what day of the week today is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+go to the dining room, find a male person, and tell him something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 " <room> " ) ) )
+Go to the washing machine, find the largest object on top and tell me what it is.
+( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 " <location> " ) ) ) )
+Go to the bedroom, find the person sitting there and tell them the day of the week
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Look for someone sitting in the living room and tell them something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Find the prson raising their left arm in the corridor and tell them wha time it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Take the pickles from the counter and deliver them to Hayden at the cutlery drawer.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+walk to the kitchen when you see a person standing, you say something about yourself
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Go to the dining table and locate the object left of the banana then bring it to me.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Go find the person sitting in the living room and tell them something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 " <room> " ) ) )
+Go to the armchair and find the water so you can bring it to Hayden near the bathtub.
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+On the top of the tea placed on the armchair is an object, please hand it over to me.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( on_top_of $1 $2 ) ) ) " <location> " )
+Find the person standing in the bedroom and tell that person something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+On the left side of the choco flakes from the sofa is an object, please hand it to me.
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( left_of $1 $2 ) ) ) " <location> " )
+Go down the corridor, look for someone raising their left hand, and tell them the time.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Please go to the bedroom and tell something about yourself to the person who's standing
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Look for the person raising their right arm at the corridor and tell him what day it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Find the person who is waving their hand in the bathroom and tell her something about you
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Please take the toothpaste from the bookshelf and take it to Peyton who is at the bathtub
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+There is an object located above the cereal from the fridge, can you please bring it to me
+( bring ( lambda $1 e ( lambda $2 e ( is_a $2 " <object> " ) ( above $1 $2 ) ) ) " <location> " )
+go to the kitchen where you will find a person standing and tell them the day of the week.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Go to the table and bring me the items from the center of the table that are the thinnest.
+( bring ( lambda $1 e ( is_a $1 " <category> " ) ( thinnest $1 ) ) " <location> " )
+could you please get the toothpaste off the bookshelf and bring it to peyton at the bathtub
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Go to the kitchen and find a person standing there, and tell them something about yourself.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 " <room> " ) ) )
+Tell the person who is in the livingroom raising their right arm what day of the week it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Head to the counter, locate the pickles, and bring them to Hayden over at the cutlery drawer
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+go to the bathtub and find the small dish and then deliver it to Robin who is at the cabinet
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+Go to the counter and bring the pickles that are there to Hayden who is at the cutlery drawer
+( bring ( lambda $1 e ( is_a $1 " <object> " ) ( at $1 " <location> " ) ) ( lambda $1 e ( person $1 ) ( name $1 " <name> " ) ( at $1 " <location> " ) ) )
+please tell what day of the week it is to the person in the living room raising their right arm
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
+Find the person raising their right arm in the living room and tell them which day of the week it is.
+( say " <whattosay> " ( lambda $1 e ( person $1 ) ( is $1 " <gesture> " ) ( at $1 " <room> " ) ) )
