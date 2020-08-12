@@ -20,18 +20,30 @@ Answer Jordans question she is in the bedroom
 find Jordan in the bedroom and answer a question
 Answer Tracy's question after you have found her in the corridor.
 find Tracy in the corridor and answer a question
+Answer a female's question in the kitchen.
+look for a female person in the kitchen and answer a question
 Answer a question for the boy you find in the dining room.
 look for a boy in the dining room and answer a question
 Answer a question for the girl in the bedroom.
+look for a girl in the bedroom and answer a question
+Answer a question for the girl in the bedroom.
 go to the bedroom , locate a girl , and answer a question
+Answer a question for the man in the bedroom.
+locate a man in the bedroom and answer a question
 Answer a question for the person in the bathroom.
 locate someone in the bathroom and answer a question
+Answer a question for the person in the kitchen.
+navigate to the kitchen , find a person sitting , and answer a question
 Answer a question for the person laying down in the living room.
 find a person lying down in the living room and answer a question
 Answer a question for the person standing in the dining room.
 navigate to the dining room , locate a person standing , and answer a question
+Answer a question for the person you find in the bedroom.
+navigate to the bedroom , locate someone , and answer a question
 Answer a question for the person you find sitting in the kitchen.
 find a person sitting in the kitchen and answer a question
+Answer a question from the person raising their right arm in the living room
+go to the living room , look for a person raising their right arm , and answer a question
 Answer a question of the person in the dinning room.
 look for a person in the dining room and answer a question
 Answer taylor at the freezer
@@ -56,12 +68,16 @@ Answer the question of a person standing in the corridor.
 look for a person standing in the corridor and answer a question
 Answer the question of the girl in the bedroom.
 look for a girl in the bedroom and answer a question
+Answer the question of the male person in the bedroom.
+go to the bedroom , locate a male person , and answer a question
 Answer the question of the person in the bathroom.
 go to the bathroom , locate someone , and answer a question
 Answer the question of the person in the dining room.
 look for a person in the dining room and answer a question
 Answer the question of the person lying in the kitchen
 go to the kitchen , look for a person lying down , and answer a question
+Answer the question of the person waving in the kitchen.
+look for a person waving in the kitchen and answer a question
 Answer the question of the person waving in the kitchen.
 look for a person waving in the kitchen and answer a question
 Answer the question the perosn in the kitchen is asking.
@@ -90,8 +106,12 @@ Bring Hayden to the desk
 Please guide Hayden to the desk
 Bring Hayden to the freezer.
 Could you please take Hayden to the freezer
+Bring Hayden to the freezer.
+Could you please take Hayden to the freezer
 Bring Jamie from the dining table to the side table.
 Could you please lead Jamie from the dining table to the side table
+Bring Jordan from the desk to the coffee table.
+meet Jordan at the desk and guide them to the coffee table
 Bring Michael from the center table to the dining table
 take Michael to the dining table , you will find them at the center table
 Bring Michael the cereal at the cutlery drawer
@@ -112,6 +132,8 @@ Bring me some pasta dear robot.
 Robot please give pasta to me
 Bring me the apple.
 give the apple to me
+Bring me the biggest item in the bathroom cabinet
+give me the largest objects from the bathroom cabinet
 Bring me the biggest objects that are on the side table
 Could you bring me the biggest objects from the side table
 Bring me the biggest thing from the cabinet.
@@ -138,8 +160,14 @@ Bring me the heaviest object in the cutlery drawer.
 Could you give me the heaviest object from the cutlery drawer
 Bring me the heaviest object on the coffee table.
 Could you please give me the heaviest objects from the coffee table
+Bring me the heaviest object on the toilet
+Could you give me the heaviest object from the toilet
 Bring me the heaviest objects from the towel rack.
 Could you give me the heaviest objects from the towel rack
+Bring me the item from the armchair on top of the tea
+Robot please give me the object on top of the tea from the armchair
+Bring me the item next to the knife on the table.
+Could you please bring me the object at the right of the knife from the dining table
 Bring me the item that is above the knife on the dresser.
 Could you please bring me the object above the knife from the dresser
 Bring me the item that is behind the chocolate on the counter.
@@ -154,6 +182,8 @@ Bring me the lightest objects from the sofa
 Could you bring me the lightest objects from the sofa
 Bring me the lightest objects on the sofa.
 Robot please give me the lightest objects from the sofa
+Bring me the milk that is in the wardrobe.
+give me the milk from the wardrobe
 Bring me the object above the peach on the counter.
 Could you give me the object above the peach from the counter
 Bring me the object on the right side of the counter
@@ -172,10 +202,14 @@ Bring me the smallest object from the bar
 Robot please give me the smallest objects from the bar
 Bring me the smallest object on the coffee table
 Robot please bring me the smallest object from the coffee table
+Bring me the smallest object on the coffee table
+Robot please bring me the smallest object from the coffee table
 Bring me the smallest objects from the sofa.
 Could you please give me the smallest objects from the sofa
 Bring me the smallest objects in the sink
 Could you give me the smallest objects from the sink
+Bring me the smallest thing from the cutlery drawer
+give me the smallest object from the cutlery drawer
 Bring me the smallest things from the dresser thanks
 Could you please bring me the smallest objects from the dresser
 Bring me the soap
@@ -260,6 +294,8 @@ Can you find the glass inside the bathroom?
 Could you locate the glass in the bathroom
 Can you find the lightest objects from the washing machine and give it to me?
 Could you please bring me the lightest objects from the washing machine
+Can you get me the object behind the bowl from the drawer?
+Robot please give me the object behind the bowl from the drawer
 Can you get the knife to Robin?
 Could you deliver knife to Robin
 Can you give me the item above the shampoo from the side table
@@ -310,6 +346,8 @@ Can you please pour some cereal into my bowl
 Pour some cereals into the bowl
 Can you please take the knife from the bed and put it in the kitchen drawer?
 Could you please get the knife from the bed to the cutlery drawer
+Can you please take this apple to Jordan at the silverware drawer?
+deliver the apple to Jordan at the cutlery drawer
 Can you please to the washing machine and tell me what the three biggest objects are
 Could you tell me which are the three biggest objects on the washing machine
 Can you pour cereal in the bowl.
@@ -332,6 +370,8 @@ Could you bring me the object right next to the baby chair
 Could you please bring me the right most object from the baby chair
 Could you go the side table and bring me the largest objects that are on it?
 Could you bring me the biggest objects from the side table
+Could you tell me what's in the microwave? What are the three largest objects
+Please tell me which are the three biggest objects on the microwave
 Count how many people in the kitchen are sitting and tell me how many that is.
 Tell me how many people in the kitchen are sitting
 Count the beers on the toilet and tell me how many are there.
@@ -426,6 +466,8 @@ Find Morgan in the toilet and lead him.
 Please go to the toilet , meet Morgan , and lead them
 Find Peyton at the freezer and go with him to the bedroom
 Robot please meet Peyton at the freezer , follow them , and go to the bedroom
+Find Robin in the dining room and tell him what day it is.
+go to the dining room , locate Robin , and say what day it is
 Find Robin near the tv and give her the sponge.
 give to Robin at the tv couch the sponge from the counter
 Find Robing at the counter and escort them back while following them.
@@ -478,6 +520,8 @@ Find bathroom with a person waving and tell something about yourself.
 find a person waving in the bathroom and tell something about yourself
 Find female in dining room and answer question.
 find a female person in the dining room and answer a question
+Find me the sponge from the bathroom
+locate the sponge in the bathroom
 Find out the name of the person  by the chair.
 Tell me the name of the person at the chair
 Find out what pose the person is in the dining room and let me know.
@@ -559,6 +603,8 @@ go to the corridor , find a male person , and answer a question
 Find the man in the bathroom and tell him something about yourself.
 find a male person in the bathroom and say something about yourself
 Find the man in the bedroom and answer
+locate a man in the bedroom and answer a question
+Find the man in the bedroom and answer
 locate a male person in the bedroom and answer a question
 Find the man in the middle of the dining room and tell him the day
 locate a man in the dining room and say what day it is
@@ -632,6 +678,12 @@ Find the smallest object from the dish washing area and give it to me.
 Please bring me the smallest object from the dishwasher
 Find the sponge from the kitchen
 look for the sponge in the kitchen
+Find the sponge in the bathroom.
+locate the sponge in the bathroom
+Find the tea in the kitchen.
+locate the tea in the kitchen
+Find the tea spoon in the bathtub and place it on the counter.
+go to the bathtub , locate the tea spoon , and put it on the counter
 Find the thinnest object on the sink and tell me what it is.
 Tell me what's the thinnest object on the sink
 Find the three lightest items in the freezer and tell me what they are.
@@ -654,10 +706,16 @@ Find your way to the bedroom,locate someone and answer
 navigate to the bedroom , locate someone , and answer a question
 Find your way to the dining room and find someone and say a joke.
 navigate to the dining room , locate someone , and say a joke
+Follow Alex after meeting them at the toilet.
+meet Alex at the toilet and follow them
 Follow Jamie from the shower to the bathroom, please.
 Could you please go to the shower , meet Jamie , and follow them to the bathroom
 Follow Morgan, he's at the bar
 navigate to the bar , meet Morgan , and follow them
+Follow Taylor
+Please follow Taylor
+Follow Taylor
+Please follow Taylor
 Follow Taylor
 Please follow Taylor
 Follow Tracy to the corridor after meeting them at the cabinet
@@ -708,6 +766,8 @@ Get me the object on top of the tea spoon at the cabinet
 Could you bring me the object on top of the tea spoon from the cabinet
 Get me the object that is on the counter behind the chocolate.
 Robot please give me the object behind the chocolate from the counter
+Get me the objects in the dining room
+find the objects in the dining room
 Get me the shampoo from the bookshelf
 navigate to the bookshelf , find the shampoo , and deliver it to me
 Get the apple and put it on the side table
@@ -722,6 +782,8 @@ Get the cereal from the armchair.
 Robot please go to the armchair , meet the cereal , and follow it
 Get the cereal from the sofa and give it to me.
 bring me the cereal from the sofa
+Get the cookies from the sink.
+give me the cookies from the sink
 Get the dishwasher prickles
 bring the pickles to the dishwasher
 Get the knife out of the dishwasher and bring it to Jordan at the bar.
@@ -786,6 +848,8 @@ Give taylor the pasta from the coffee table. She's at the stove
 pick up the pasta from the coffee table and give it to Taylor at the stove
 Give the apple to the person in the room who is raising their left arm.
 Please give apple to the raising their left arm person in the bedroom
+Give the big dish to Morgan.
+deliver the big dish to Morgan at the freezer
 Give the bown to the person in the living room waving.
 Please deliver bowl to the waving person in the living room
 Give the melon to the person in the bedroom who is raising their right arm
@@ -809,6 +873,8 @@ Please go to the freezer , meet Morgan , and follow them to the dining room
 Go find Taylor in the bedroom and answer a question
 go to the bedroom , look for Taylor , and answer a question
 Go find the glass in the bathroom.
+Could you locate the glass in the bathroom
+Go find the glass in the bathroom.
 locate the glass in the bathroom
 Go find the person in the bathroom and answer their question
 navigate to the bathroom , locate a person standing , and answer a question
@@ -828,6 +894,10 @@ Go get me the item that's located to the left of the choco flakes near the sofa.
 Could you give me the object at the left of the choco flakes from the sofa
 Go get the Shampoo from the kitchen
 look for the shampoo in the kitchen
+Go get the banana and bring it to the desk.
+Could you please bring the banana to the desk
+Go get the milk from the wardrobe and bring it to me
+give me the milk from the wardrobe
 Go hand me the item on the bathroom cabinet under the coke
 Please give me the object under the coke from the bathroom cabinet
 Go in wardrobe and take object behind cereal to me.
@@ -846,6 +916,10 @@ Go look for the spaghetti in the corridor.
 find the spaghetti in the corridor
 Go look for the things in the bathroom.
 find the objects in the bathroom
+Go meet Jamie at the side table and he'll show you to the dining table
+Could you go to the side table , meet Jamie , and follow them to the dining table
+Go meet Peyton and give him company
+Could you meet Peyton and accompany them
 Go meet Peyton and go with them
 Could you meet Peyton and accompany them
 Go meet Peyton at the fireplace and bring them to the center table.
@@ -868,6 +942,8 @@ Go tell me what the lightest item on the bar is
 Tell me what's the lightest object on the bar
 Go tell me what the three smallest items on the sofa are
 Could you please tell me which are the three smallest objects on the sofa
+Go tell the person in the living room a joke.
+find someone in the living room and say a joke
 Go tell the person standing in the bathroom a joke.
 navigate to the bathroom , locate a person standing , and tell a joke
 Go the the dining room and answer the girls question
@@ -972,6 +1048,8 @@ Go to the bedroom and tell someone there what day of the week it is.
 navigate to the bedroom , find someone , and say the day of the week
 Go to the bedroom then find a person and tell them something about yourself
 navigate to the bedroom , find a person , and tell something about yourself
+Go to the bedroom to locate the person pointing right, then answer that person's question.
+answer a question to the person pointing to the right in the bedroom
 Go to the bedroom, and tell someone the day of the week
 navigate to the bedroom , find someone , and say the day of the week
 Go to the bedroom, and tell the person sitting there what day it is.
@@ -1062,6 +1140,8 @@ Go to the dining table, find the object on the right of the knife and bring it t
 Could you please bring me the object at the right of the knife from the dining table
 Go to the dresser, find the lightest object in there and hand it over to me.
 Could you please give me the lightest object from the dresser
+Go to the fireplace and give me the object thats at the right of my beer
+give me the object at the right of the beer from the fireplace
 Go to the fireplace and identify the three smallest objects in there.
 tell me which are the three smallest objects on the fireplace
 Go to the freezer and find out how many items are in there.
@@ -1164,6 +1244,8 @@ Go to the towel rack and give me the heaviest objects you can see there.
 Please bring me the heaviest objects from the towel rack
 Go to the towel rack and locate the object under the milk then bring it to me.
 Please bring me the object under the milk from the towel rack
+Go to the tower rack and bring me the thing under the milk.
+Please bring me the object under the milk from the towel rack
 Go to the tv couch and follow the shampoo when you saw it.
 Robot please navigate to the tv couch , meet the shampoo , and follow it
 Go to the tv couch and get the beer for me.
@@ -1204,6 +1286,8 @@ Greet Alex and bring him inside.
 meet Alex and escort them
 Guide Jordan from the desk to the coffee table
 meet Jordan at the desk and guide them to the coffee table
+Guide Tracy from the nightstand to the fridge.
+guide Tracy to the nightstand , you will find them at the fridge
 Guide Tracy to the side table.
 Could you navigate to the side table , meet Tracy , and guide them
 Hand me that coke
@@ -1226,6 +1310,8 @@ Hand me the object on top of the tea from the airchair
 Robot please give me the object on top of the tea from the armchair
 Hand me the object that is on the left side of the sofa
 Robot please give me the object at the left of the chocolate from the sofa
+Hand me the spoon that's on the desk.
+give me the spoon from the desk
 Hand me the thinnest items on the center table
 Could you please give me the thinnest objects from the center table
 Hand me the thinnest objects from the center table
@@ -1250,6 +1336,8 @@ Help Jamie find his way from the dining table to the side table.
 Could you please lead Jamie from the dining table to the side table
 Help Jordan navigate from the dresser to the sofa
 Please guide Jordan from the dresser to the sofa
+Help Michael get to bed.
+Could you lead Michael to the bed
 Hey Robot, tell me what the heaviest items on the dresser are.
 Robot please tell me which are the three heaviest objects on the dresser
 How is the person in the bathroom standing?
@@ -1262,10 +1350,14 @@ How many beers are on the sink
 Tell me how many beer there are on the sink
 How many beers are on the toilet?
 Tell me how many beer there are on the toilet
+How many beers are on the toilet?
+Tell me how many beer there are on the toilet
 How many cokes are in the freezer
 Robot please Tell me how many coke there are on the freezer
 How many females are in the living room
 Tell me how many people in the living room are girls
+How many females are in the living room?
+Tell me how many people in the living room are female
 How many girls are in the bathroom?
 Tell me how many people in the bathroom are girls
 How many girls are in the living room?
@@ -1278,6 +1370,8 @@ How many ladies are in the corridor
 Tell me how many people in the corridor are women
 How many males are there in the dining room?
 Tell me how many people in the dining room are male
+How many males are there in the dining room?
+Tell me how many people in the dining room are male
 How many melon are there on the dishwasher?
 Could you please Tell me how many melon there are on the dishwasher
 How many men are in the corridor?
@@ -1288,10 +1382,16 @@ How many objects are on the bookshelf?
 Tell me how many objects there are on the bookshelf
 How many objects are there on the baby chair
 Tell me how many objects there are on the baby chair
+How many objects are there on the baby chair
+Tell me how many objects there are on the baby chair
 How many people are in the girls bathroom?
 Tell me how many people in the bathroom are girls
+How many people are lying down in the bedroom?
+Tell me how many people in the bedroom are lying down
 How many people are lying down in the dining room?
 Tell me how many people in the dining room are lying down
+How many people are sitting in the bathroom?
+Tell me how many people in the bathroom are sitting
 How many people are sitting in the bathroom?
 Tell me how many people in the bathroom are sitting
 How many people are sitting in the corridor?
@@ -1302,12 +1402,18 @@ How many people are standing in the bedroom.
 Tell me how many people in the bedroom are standing
 How many people are standing in the corridor?
 Tell me how many people in the corridor are standing
+How many people are standing in the corridor?
+Tell me how many people in the corridor are standing
 How many people are standing in the kitchen.
 Tell me how many people in the kitchen are standing
 How many people are standing in the living room?
 Tell me how many people in the living room are standing
+How many people in the bathroom are sitting down
+Tell me how many people in the bathroom are sitting
 How many people in the corridor are men?
 Tell me how many people in the corridor are men
+How many people in the corridor are standing up?
+Tell me how many people in the corridor are standing
 How many people in the corridor are standing up?
 Tell me how many people in the corridor are standing
 How many people in the corridor are standing?
@@ -1324,11 +1430,15 @@ How many sponges are in the cutlery drawer
 Tell me how many sponge there are on the cutlery drawer
 How many tea spoons are on the nightstand please
 Could you Tell me how many tea spoon there are on the nightstand
+How many teaspoons are there on my nightstand?
+Could you Tell me how many tea spoon there are on the nightstand
 How many things are in that drawer
 Tell me how many objects there are on the drawer
 How many things are in the freezer
 Tell me how many objects there are on the freezer
 How many things are on the bookshelf
+Tell me how many objects there are on the bookshelf
+How many things are present on the bookshelf?
 Tell me how many objects there are on the bookshelf
 How many things are there on the sink?
 Tell me how many objects there are on the sink
@@ -1366,6 +1476,10 @@ I'd like the heaviest objects from the desk thanks
 Robot please give me the heaviest objects from the desk
 I'd like the heaviest things from the towel rack please
 Could you give me the heaviest objects from the towel rack
+I'd like the item above the knife on the dresser
+Could you please bring me the object above the knife from the dresser
+I'd like the item behind the shampoo on the stove
+Could you please give me the object behind the shampoo from the stove
 I'd like the most thin objects that are in the washing machine
 Please give me the thinnest object from the washing machine
 I'd like the rightmost object on the baby chair
@@ -1424,6 +1538,10 @@ Is the person at the armchair male or female?
 Tell me the gender of the person at the armchair
 Is the person in the bedroom male or female?
 Tell me the gender of the person at the bedroom
+Is the person in the dining room a boy or a girl
+Tell me the gender of the person at the dining room
+Is the person in the dining room male or female?
+Tell me the gender of the person in the dining room
 Is the person in the dining room male or female?
 Tell me the gender of the person in the dining room
 Is there beer in the corridor
@@ -1544,6 +1662,8 @@ Look for a person standing at the dining room and answer their question.
 navigate to the dining room , locate a person standing , and answer a question
 Look for a standing person at the dining room and answer their question.
 navigate to the dining room , locate a person standing , and answer a question
+Look for someone in the living room and answer their question
+navigate to the living room , look for someone , and answer a question
 Look for someone sitting in the living room and tell them something about yourself
 go to the living room , look for a person sitting , and tell something about yourself
 Look for the mug near the tv couch and place it on the chair
@@ -1630,6 +1750,8 @@ Move the napkin from the nightstand to the cabinet.
 Could you please grasp the napkin from the nightstand to the cabinet
 Move the objects from the shower
 Could you accompany the objects from the shower to the stove
+Move the peach from the bathroom cabinet to the drawer.
+go to the bathroom cabinet , locate the peach , and put it on the drawer
 Move the pringles from the bedroom to the fireplace
 get the pringles from the bedroom to the fireplace
 Move to bathroom, locate Tracy and provide self fact.
@@ -1662,6 +1784,8 @@ Of the objects on the fireplace, which are the three largest?
 Could you tell me which are the three largest objects on the fireplace
 Of the people in the corridor, how many are female?
 Tell me how many people in the corridor are girls
+Offer me the bag.
+give the bag to me
 On the baby chair, which is the biggest object?
 Tell me what's the biggest objects on the baby chair
 On the baby chair, which three items weigh the most?
@@ -1714,6 +1838,8 @@ Peyton is sitting by the fireplace, could you bring her a beer from the cabinet
 go to the cabinet , find the beer , and bring it to Peyton at the fireplace
 Pick p the choc flakes and bring them to Michael in the kitchen.
 grasp the choco flakes from the sofa and give it to Michael at the dishwasher
+Pick up the banana and put it on the armchair.
+take the banana and place it on the armchair
 Pick up the banana that is in the cutlery drawer and take it to the tv couch
 Could you pick up the banana from the cutlery drawer to the tv couch
 Pick up the choco flakes and put it on the fireplace
@@ -1732,8 +1858,12 @@ Place the right most difficult object from the baby chair into my hands.
 Please bring me the right most object from the baby chair
 Please  go to the person lying in the kitchen and answer their question.
 go to the kitchen , look for a person lying down , and answer a question
+Please  take Jordan from dresser to sofa
+Please guide Jordan from the dresser to the sofa
 Please answer Jordans question at the microwave.
 answer a question to Jordan at the microwave
+Please answer a question from Taylor at the freezer
+answer a question to Taylor at the freezer
 Please bring Hayden over to the freezer
 Could you please take Hayden to the freezer
 Please bring me cereal from the sofa there
@@ -1742,6 +1872,8 @@ Please bring me that pear that is on the dresser
 bring me the pear from the dresser
 Please bring me the apple.
 Could you deliver me the apple
+Please bring me the biggest things that are in the washing machine
+Could you bring me the largest objects from the washing machine
 Please bring me the fork.
 deliver the fork to me
 Please bring me the heaviest objects from the desk
@@ -1756,6 +1888,10 @@ Please bring me the left most item in the fridge.
 Robot please give me the left most object from the fridge
 Please bring me the lightest thing on the coffee table
 Could you give me the lightest object from the coffee table
+Please bring me the lightest thing on the towel rack
+Robot please give me the lightest object from the towel rack
+Please bring me the lightest things from the couch
+Robot please give me the lightest objects from the sofa
 Please bring me the lightest things on the sofa
 Could you bring me the lightest objects from the sofa
 Please bring me the object on the counter that is furthest to the right
@@ -1776,12 +1912,16 @@ Please bring me the soap
 bring the soap to me
 Please bring me the thing that is furthest to the right on the stove
 Robot please bring me the right most object from the stove
+Please bring me the thing that is to the left of the melon on the baby chair
+bring me the object at the left of the melon from the baby chair
 Please bring me the thing that is to the left of the peach on the cabinet
 Robot please bring me the object at the left of the peach from the cabinet
 Please bring me the thinnest object from the dishwasher
 give me the thinnest object from the dishwasher
 Please bring me the thinnest objects in the freezer
 Robot please give me the thinnest objects from the freezer
+Please bring me the thinnest thing from the dishwasher
+give me the thinnest object from the dishwasher
 Please bring my glass to the desk
 Robot please get the glass to the desk
 Please bring shampoo to the individual in the living room who is raising their right arm
@@ -1796,6 +1936,8 @@ Please bring the thinnest objects to me that are on the bar.
 bring me the thinnest objects from the bar
 Please can I have the smallest thing from the coffee table
 Robot please bring me the smallest object from the coffee table
+Please can you meet Jaime and accompany them
+Please meet Jamie and escort them
 Please carry the water from the bed to the coffee table
 Please escort the water from the bed to the center table
 Please clean up the Pringles on the dining room table and take the can to the dishwasher
@@ -1806,8 +1948,12 @@ Please fetch that soap to me
 Please deliver me the soap
 Please find a girl in the bedroom and answer a question
 go to the bedroom , locate a girl , and answer a question
+Please find me  three objects in this bedroom
+Could you please locate three objects in the bedroom
 Please find me the shampoo
 locate the shampoo in the bathroom
+Please find out the name of the person in the bedroom and inform me
+Tell me the name of the person in the bedroom
 Please find the cereal in the armchair and follow it
 Robot please go to the armchair , meet the cereal , and follow it
 Please find the item under the knife in the washing machine and bring it to me.
@@ -1842,8 +1988,12 @@ Please get the milk from the microwave and give it to me.
 give me the milk from the microwave
 Please get the object from the bowl behind the washing machine
 Could you give me the object behind the bowl from the washing machine
+Please get the tinniest object from the bar Robot
+Robot please give me the smallest objects from the bar
 Please get to the sink d meet the peach and follow it
 Could you please navigate to the sink , meet the peach , and follow it
+Please give Jordan the pasta
+give pasta to Jordan
 Please give me the bag
 give the bag to me
 Please give me the object that's above the chips on the chair.
@@ -1864,12 +2014,18 @@ Please go and meet Jamie and take him somewhere
 Please meet Jamie and escort them
 Please go into the kitchen to look for Taylor and then tell him something about yourself
 navigate to the kitchen , look for Taylor , and tell something about yourself
+Please go to that drawer and meet Morgan, then escort them
+Robot please navigate to the drawer , meet Morgan , and escort them
 Please go to the bathroom and when you find a girl tell her what day it is
 navigate to the bedroom , look for a girl , and say what day it is
 Please go to the bathroom cabinet and get me the object to the right of the melon.
 Robot please give me the object at the right of the melon from the bathroom cabinet
+Please go to the bathroom, find the person there and answer their question
+navigate to the bathroom , locate a person standing , and answer a question
 Please go to the bedroom and find the coke.
 find the coke in the bedroom
+Please go to the bedroom and tell a joke to the person sitting.
+navigate to the bedroom , look for a person sitting , and tell a joke
 Please go to the bedroom and tell something about yourself to the person who's standing
 go to the bedroom , find a person standing , and tell something about yourself
 Please go to the bedroom, find a seated person and tell them a joke
@@ -1892,6 +2048,8 @@ Please go to the drawer, get the spaghetti and take it to Morgan at the  tub.
 navigate to the drawer , locate the spaghetti , and bring it to Morgan at the bathtub
 Please go to the freezer and bring me the least heavy item.
 Could you bring me the lightest object from the freezer
+Please go to the kitchen and answer a question from the person standing there
+navigate to the kitchen , look for a person standing , and answer a question
 Please go to the living room.
 Could you go to the living room
 Please go to the microwave and tell me what three items are the heaviest objects
@@ -1958,6 +2116,8 @@ Please locate the spaghetti in the bathroom
 find the spaghetti in the bathroom
 Please locate three items that are in the bathroom.
 Robot please find three objects in the bathroom
+Please locate three objects in the bathroom
+Robot please find three objects in the bathroom
 Please me the weighty items from the towel rack
 Please bring me the heaviest objects from the towel rack
 Please meet Alex at the sink, then follow them to the bed.
@@ -1998,8 +2158,12 @@ Please take Michael to the bed.
 Could you lead Michael to the bed
 Please take Michael to the counter
 lead Michael to the counter
+Please take coke that is in the kitchen to the baby's chair
+take the coke from the kitchen to the baby chair
 Please take that melon to that coffee  table
 take the melon to the coffee table
+Please take the banana and put it on the centre table
+grasp the banana and place it on the center table
 Please take the glass from the bedroom and put it in the sink
 get the glass from the bedroom to the sink
 Please take the pasta from the coffee table and give it to Taylor who is at the stove
@@ -2028,8 +2192,12 @@ Please tell me what the three lights objects on the counter are.
 Could you tell me which are the three lightest objects on the counter
 Please tell me where the shampoo is in the dining room
 locate the shampoo in the dining room
+Please tell the time to a person lying down in the bedroom
+go to the bedroom , look for a person lying down , and tell the time
 Please transfer the banana from the cutlery drawer to the tv couch.
 Could you pick up the banana from the cutlery drawer to the tv couch
+Please, you could bring the smallest object of the table, bring it to me
+Robot please bring me the smallest object from the coffee table
 Pour cereal into the bowls.
 Please Pour some cereals into the bowl
 Pour some cereal into this bowl
@@ -2054,6 +2222,8 @@ Put the melon on the coffee table.
 take the melon to the coffee table
 Put the small dish on the dining table
 Please get the small dish to the dining table
+Put the tea spoon on the counter
+pick up the tea spoon and put it on the counter
 Put the tea spoon on the counter
 pick up the tea spoon and put it on the counter
 Put the towel that is by the fridge on the towel rack.
@@ -2202,6 +2372,8 @@ Take the big dish and give it to Michael.
 Could you deliver big dish to Michael
 Take the big dish and give it to Morgan at the freezer.
 deliver the big dish to Morgan at the freezer
+Take the big dish to Michael
+Could you deliver big dish to Michael
 Take the bowl to the cabinet.
 bring the bowl from the bedroom to the cabinet
 Take the cereal to Michael by the cutlery drawer.
@@ -2248,6 +2420,8 @@ Take the shampoo to the person raising their right arm in the living room.
 bring the shampoo to the person raising their right arm in the living room
 Take the small dish to the dining table.
 Please get the small dish to the dining table
+Take the small dish to the dining table.
+Please get the small dish to the dining table
 Take the spaghetti from the towel rack  and bring it to the shower
 Could you please take the spaghetti from the towel rack to the shower
 Take the tea spoon to the bathroom and give it to the person on the left
@@ -2288,6 +2462,8 @@ Tell a joke to the person sitting in the bedroom.
 navigate to the bedroom , look for a person sitting , and tell a joke
 Tell a joke to the person waving in the corridor.
 go to the corridor , locate a person waving , and tell a joke
+Tell a joke to the person you find in the dining room.
+go to the dining room , locate a person , and say a joke
 Tell a joke to the woman in the bathroom.
 look for a woman in the bathroom and say a joke
 Tell a joke to the woman you find in the bathroom
@@ -2322,6 +2498,8 @@ Tell me whats the most miniature item on the center table
 Tell me what's the smallest object on the center table
 Tell me where the objects in the bathroom are
 locate the objects in the bathroom
+Tell me who is in the corridor.
+Tell me the name of the person in the corridor
 Tell me, what are the most heaviest three objects on the microwave.
 Could you please tell me which are the three heaviest objects on the microwave
 Tell person standing in corridor something about yourself.
@@ -2334,6 +2512,8 @@ Tell something yourself to the person with their right hand up in the kitchen
 tell something about yourself to the person raising their right arm in the kitchen
 Tell the boy in the bedroom about yourself.
 navigate to the bedroom , look for a boy , and tell something about yourself
+Tell the boy in the bedroom something about yourself.
+navigate to the bedroom , look for a boy , and tell something about yourself
 Tell the boy in the corridor what time it is
 locate a boy in the corridor and tell the time
 Tell the day of the week to the girl in the kitchen.
@@ -2342,6 +2522,8 @@ Tell the day of the week to the person standing in the bathroom.
 locate a person standing in the bathroom and say the day of the week
 Tell the day of the week to the woman in the living room
 look for a female person in the living room and tell the day of the week
+Tell the girl in the kitchen what day it is.
+go to the kitchen , find a girl , and tell the day of the week
 Tell the lady in the living room what day this is.
 look for a female person in the living room and tell the day of the week
 Tell the man in the living room something about yourself.
@@ -2358,6 +2540,8 @@ Tell the person in the kitchen something about yourself.
 find a person in the kitchen and tell something about yourself
 Tell the person in the living room with their arm raised what time it is
 find a person raising their right arm in the dining room and tell the time
+Tell the person laying down in the kitchen the day of the week.
+find a person lying down in the kitchen and say what day it is
 Tell the person lying down in the corridor what day of the week it is
 go to the corridor , look for a person lying down , and say the day of the week
 Tell the person lying in the living room to answer the question
@@ -2374,6 +2558,8 @@ Tell the time to a female person in the corridor.
 go to the corridor , look for a female person , and tell the time
 Tell the time to the girl in the kitchen.
 find a girl in the kitchen and tell the time
+Tell the time to the person in the bathroom.
+navigate to the bathroom , look for a person , and tell the time
 Tell the time to the person that is laying down in the bedroom.
 go to the bedroom , look for a person lying down , and tell the time
 Tell what day it is,to the person lying down in the bedroom
@@ -2398,6 +2584,10 @@ The person that is lying on the kitchen floor tell them the time Robot.
 go to the kitchen , find a person lying down , and tell the time
 The person to the right in the bedroom is asking you a question
 answer a question to the person pointing to the right in the bedroom
+The person who is pointing to the right in the dining room wants the bag
+Could you please bring bag to the pointing to the right person in the dining room
+The smallest objects of the comfort, can you bring them?
+Could you please bring me the smallest objects from the dresser
 The tea goes on the dining room table.
 get the tea and put it on the dining table
 The woman in the bathroom has a question that needs answering.
@@ -2416,6 +2606,8 @@ There is an object on the right of the beer from the fireplace, hand it to me.
 give me the object at the right of the beer from the fireplace
 There is how many boys in the living room?
 Tell me how many people in the living room are boys
+There's a girl in the bedroom who has a question; can you please go and answer her?
+go to the bedroom , locate a girl , and answer a question
 There's a girl in the kitchen, find her and then say the date please.
 locate a female person in the kitchen and tell what day it is
 There's an object behind the bowl by the washing machine. Can you give it to me?
@@ -2434,6 +2626,8 @@ What are the biggest objects in the drawer
 Tell me what's the biggest objects on the drawer
 What are the biggest objects in the drawer?
 Tell me what's the biggest objects on the drawer
+What are the biggest objects on the side table?
+Tell me what's the largest objects on the side table
 What are the flimsiest items on the bar
 Tell me what's the lightest objects on the bar
 What are the heaviest items on the coffee table
@@ -2442,6 +2636,8 @@ What are the heaviest objects in the sink please?
 Tell me what's the heaviest objects on the sink
 What are the heaviest objects in the sink?
 Tell me what's the heaviest objects on the sink
+What are the heaviest objects on the desk please?
+Tell me what's the heaviest objects on the desk
 What are the heaviest things on the fireplace please?
 Could you tell me which are the three heaviest objects on the fireplace
 What are the largest items in the microwave
@@ -2450,6 +2646,10 @@ What are the largest things on the dining table?
 Tell me what's the largest objects on the dining table
 What are the lightest objects on this desk please?
 Tell me what's the lightest objects on the desk
+What are the lightest objects on this table?
+tell me which are the three lightest objects on the dining table
+What are the lightest things on the sofa?
+Tell me what's the lightest objects on the sofa
 What are the most small things on the fireplace?
 Tell me what's the smallest objects on the fireplace
 What are the skinniest objects on the couch?
@@ -2458,23 +2658,35 @@ What are the smallest articles in the cabinet?
 Tell me what's the smallest objects on the cabinet
 What are the smallest objects at the washing machine?
 Tell me what's the smallest objects on the washing machine
+What are the smallest objects in the fireplace?
+Tell me what's the smallest objects on the fireplace
 What are the smallest three objects on the sink?
 tell me which are the three smallest objects on the sink
 What are the thinnest objects on the fireplace?
 Tell me what's the thinnest objects on the fireplace
 What are the thinnest things on the sofa?
 tell me which are the three thinnest objects on the sofa
+What are the three biggest objects on the center table?
+Could you please tell me which are the three largest objects on the center table
 What are the three biggest objects on the tub?
 Robot please tell me which are the three largest objects on the bathtub
 What are the three biggest things in the cabinet
 Robot please tell me which are the three biggest objects on the cabinet
+What are the three biggest things on the bathtub?
+Please tell me which are the three largest objects on the bathtub
 What are the three biggest things on the microwave?
 Please tell me which are the three biggest objects on the microwave
 What are the three biggest things on the middle table?
 Could you please tell me which are the three largest objects on the center table
+What are the three heaviest objects on the fireplace?
+Could you tell me which are the three heaviest objects on the fireplace
 What are the three heaviest objects on the microwave?
 Please tell me which are the three heaviest objects on the microwave
+What are the three heaviest objects on the sink?
+Could you please tell me which are the three heaviest objects on the sink
 What are the three heaviest things on the chair
+tell me which are the three heaviest objects on the chair
+What are the three heaviest things on the chair?
 tell me which are the three heaviest objects on the chair
 What are the three huge objects on the nightstand
 Could you tell me which are the three largest objects on the nightstand
@@ -2482,6 +2694,8 @@ What are the three largest items in the microwave
 Please tell me which are the three heaviest objects on the microwave
 What are the three largest objects in the bathtub?
 Please tell me which are the three largest objects on the bathtub
+What are the three largest objects on the dresser?
+Robot please tell me which are the three largest objects on the dresser
 What are the three largest objects on top of the dresser?
 Robot please tell me which are the three largest objects on the dresser
 What are the three largest things on the cutlery drawer
@@ -2526,8 +2740,12 @@ What is the biggest item on the washing machine
 Tell me what's the largest object on the washing machine
 What is the biggest object in the shower?
 Tell me what's the largest object on the shower
+What is the biggest object on the washing machine?
+Tell me what's the biggest object on the washing machine
 What is the biggest thing in the microwave please?
 Tell me what's the biggest objects on the microwave
+What is the biggest thing on the sink?
+Tell me what's the biggest object on the sink
 What is the gender of person at the dining room.
 Tell me the gender of the person at the dining room
 What is the gender of the person at the wheelchair?
@@ -2540,6 +2758,8 @@ What is the heaviest object on the desk?
 Tell me what's the heaviest objects on the desk
 What is the heaviest object on the fridge
 Tell me what's the heaviest object on the fridge
+What is the heaviest object on the fridge
+Tell me what's the heaviest object on the fridge
 What is the heaviest thing in the fridge please?
 Tell me what's the heaviest objects on the fridge
 What is the heaviest thing on the couch?
@@ -2550,8 +2770,12 @@ What is the largest object from the sink?
 Robot please give me the biggest object from the sink
 What is the largest object in the sink?
 Tell me what's the biggest object on the sink
+What is the largest thing on the shower?
+Tell me what's the largest object on the shower
 What is the left most item from the fridge?
 Robot please give me the left most object from the fridge
+What is the lightest item on the silverware drawer?
+Tell me what's the lightest object on the cutlery drawer
 What is the lightest object on the cupboard?
 Tell me what's the lightest object on the cupboard
 What is the lightest objects on the desk?
@@ -2588,10 +2812,14 @@ What is the smallest objects on the freezer?
 Tell me what's the smallest objects on the freezer
 What is the smallest thing on the washing machine?
 Tell me what's the smallest objects on the washing machine
+What is the smallest thing on this coffee table please?
+Tell me what's the smallest object on the coffee table
 What is the thinnest item in the dishwasher
 Tell me what's the thinnest objects on the dishwasher
 What is the thinnest object in the cupboard?
 Tell me what's the thinnest objects on the cupboard
+What is the thinnest object on the sink?
+Tell me what's the thinnest object on the sink
 What is the thinnest thing in the bathroom cabinet
 Tell me what's the thinnest object on the bathroom cabinet
 What is the thinnest thing on the dishwasher?
@@ -2614,8 +2842,12 @@ What pose is the person in the bathroom
 Tell me the pose of the person in the bathroom
 What pose is the person in the dining room in?
 Tell me the pose of the person in the dining room
+What pose is the person in the living room doing
+Tell me the pose of the person in the living room
 What pose is the person standing in the bathroom
 Tell me the pose of the person at the bathtub
+What three object in the chair are biggest?
+Robot please tell me which are the three largest objects on the chair
 What three objects in the cutlery drawer are the lightest?
 Robot please tell me which are the three lightest objects on the cutlery drawer
 What three objects on the nightstand are the largest?
@@ -2708,6 +2940,8 @@ Which object is the least heavy on the sofa?
 Tell me what's the lightest objects on the sofa
 Which object is the lightest on the dishwasher?
 Tell me what's the lightest objects on the dishwasher
+Which object on the cabinet is the smallest?
+Tell me what's the smallest object on the cabinet
 Which object on the couch weighs the most?
 Tell me what's the heaviest object on the sofa
 Which object on the fridge is the heaviest?
@@ -2740,6 +2974,8 @@ Who is in the corridor?
 Tell me the name of the person in the corridor
 Who is in the living room?
 Tell me the name of the person in the living room
+Who is in the living room?
+Tell me the name of the person in the living room
 Who is the person at the cabinet?
 Tell me the name of the person at the cabinet
 Who is the person at the counter?
@@ -2752,6 +2988,8 @@ Who's in the living room
 Tell me the name of the person in the living room
 Whos sitting in the kitchen
 Tell me how many people in the kitchen are sitting
+Would you please bring me the cereal from the couch?
+bring me the cereal from the sofa
 You can find Alex by the toilet and then follow him
 meet Alex at the toilet and follow them
 You can go to the sink, all the length and width of the bed.
@@ -2968,6 +3206,8 @@ find the smallest object from the fireplace
 Please give me the smallest object from the fireplace
 find the smallest object on thecabinet and tellme
 Tell me what's the smallest object on the cabinet
+find the sponge in the bathroom
+locate the sponge in the bathroom
 find the things in the living room
 locate the objects in the dining room
 find the thinnest object from the freezer and bring it to me
@@ -2990,6 +3230,8 @@ from the cabinet tell me which are the smallest objects
 Tell me what's the smallest objects on the cabinet
 from the dishwasher give me the box
 give me the box from the dishwasher
+from the person of the runner, please tell me the sex
+Tell me the gender of the person at the corridor
 from the word that is in the bedroom, tell me the name
 Tell me the name of the person in the bedroom
 get escort michael from baby chair and move to the counter
@@ -3120,6 +3362,8 @@ go to the bedroom and answer the person who is pointing right
 answer a question to the person pointing to the right in the bedroom
 go to the bedroom and tell the person sitting what day today is
 navigate to the bedroom , find a person sitting , and tell what day it is
+go to the bedroom to find the spoon
+look for the spoon in the bedroom
 go to the bookshelf, get the shampoo and bring it to me.
 navigate to the bookshelf , find the shampoo , and deliver it to me
 go to the boy from the bedroom and ask him something
@@ -3134,10 +3378,14 @@ go to the corridor to find a person, and answer a question
 look for a person standing in the corridor and answer a question
 go to the corridor to find tracy, and answer a question
 find Tracy in the corridor and answer a question
+go to the corridor, to locate a child please say what day is
+go to the corridor , locate a boy , and say what day it is
 go to the cutlery drawer, find the banana and take it to the tv couch please
 Could you pick up the banana from the cutlery drawer to the tv couch
 go to the dining room
 Please navigate to the dining room
+go to the dining room and find a girl ask her a question
+navigate to the dining room , find a girl , and answer a question
 go to the dining room and tell the person sitting what day it is
 go to the dining room , find a person sitting , and say what day it is
 go to the dining room, find a male person, and tell him something about yourself.
@@ -3198,6 +3446,8 @@ go to the nightstand and anwer jamie
 answer a question to Jamie at the nightstand
 go to the person in the bathroom and answer a question
 navigate to the bathroom , find someone , and answer a question
+go to the sink and bring me the biggest objects, please
+Please bring me the largest objects from the sink
 go to the sink and follow tracy to the refridgerator
 navigate to the sink , meet Tracy , and follow them to the fridge
 go to the toilet and get the heaviest item and bring it to me
@@ -3226,6 +3476,8 @@ guide jamie from the cabinet back to here
 Please meet Jamie at the cabinet , follow them , and guide them back
 hand me the largest item from the counter
 bring me the biggest object from the counter
+hand me the napkin its in the freezer
+give me the napkin from the freezer
 hand me whatever weighs the least from the dresser please
 Could you please give me the lightest object from the dresser
 hand the text box to the human that is pointing to the right inside the bathroom
@@ -3242,6 +3494,8 @@ how many cokes are left in the freezer
 Robot please Tell me how many coke there are on the freezer
 how many female are there in the living room
 Tell me how many people in the living room are female
+how many girls are in the bathroom
+Tell me how many people in the bathroom are girls
 how many girls are in the bathroom
 Tell me how many people in the bathroom are girls
 how many melons are there in the dishwasher?
@@ -3320,6 +3574,8 @@ move the bag fro the bookshelf to the side table
 take the bag from the bookshelf and place it on the side table
 move to the corridor, find an boy, and tell them what day it is today
 go to the corridor , locate a boy , and say what day it is
+navigate  to the kitchen, can you, please?
+Could you please navigate to the kitchen
 navigate to bedroom, find sleeping person and tell them the time.
 go to the bedroom , find a person lying down , and tell what day it is
 navigate to corridor and find someone to tell what day it is
@@ -3334,12 +3590,16 @@ of the people in the corridor, how many are women?
 Tell me how many people in the corridor are women
 of the people in the dining room, how many are male?
 Tell me how many people in the dining room are male
+of the people who are in the room, which are girls?
+Tell me how many people in the living room are girls
 pass Michael a tea spoon
 Please give tea spoon to Michael
 pass me the box on the dishwasher
 give me the box from the dishwasher
 pass me the fork.
 give me the fork
+pass me the milk in the wardrobe
+give me the milk from the wardrobe
 pass me the object from the baby chair right of the chocolate
 Could you give me the object at the right of the chocolate from the baby chair
 pass me the pasta from the nightstand please
@@ -3366,6 +3626,8 @@ please can I bring the object that from the baby's chair is on the lef
 bring me the object at the left of the melon from the baby chair
 please could you give me the lighter object of the board
 Robot please give me the lightest object from the towel rack
+please find the apple that is in the dining room
+locate the apple in the dining room
 please find the object to the right of the glass near the tv couch and bring it to me
 Robot please bring me the object at the right of the glass from the tv couch
 please find the objects in the dining room
@@ -3386,6 +3648,10 @@ please go to hayden in the baby char and answer his question
 answer a question to Hayden at the baby chair
 please go to the sink, find the peach, and follow it
 Could you please navigate to the sink , meet the peach , and follow it
+please locate the mug in the dining room
+find the mug in the dining room
+please look for things in the living room
+look for the objects in the living room
 please look for three objects in the bathroom
 Robot please look for three objects in the bathroom
 please pass me the mug.
@@ -3422,6 +3688,8 @@ put the banana on the center table
 grasp the banana and place it on the center table
 put the milk on the table in the dining room
 Please take the milk to the dining table
+put the pasta on the bed
+place the pasta on the bed
 put the pasta on the bed
 place the pasta on the bed
 put the peach on the drawer which is in the bathroom cabinet
@@ -3522,6 +3790,8 @@ tell the time to the person on the bathroom
 navigate to the bathroom , look for a person , and tell the time
 the shampoo could you bring it to me please
 Please bring me the shampoo
+the soap, please bring it to me
+bring the soap to me
 there is a person in the living room with their right arm up and answer them
 go to the living room , look for a person raising their right arm , and answer a question
 there is an object at the right of the glass from the tv couch. Robot please bring it to me
@@ -3542,6 +3812,8 @@ what are the 3 least heavy items on the armchair
 tell me which are the three lightest objects on the armchair
 what are the heaviest things in the sink
 Tell me what's the heaviest objects on the sink
+what are the smallest items in the dishwasher
+Please tell me which are the three thinnest objects on the dishwasher
 what are the smallest objects objects on the fridge?
 Tell me what's the smallest objects on the fridge
 what are the three biggest objects in sink?
